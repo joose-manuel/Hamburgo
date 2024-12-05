@@ -45,7 +45,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-gap: 20px;
-    background-color: rgb(255, 255, 255)74);
+    background-color: rgba(241, 84, 84, 0.788);
     border-radius: 20px;
     padding: 10px;
   }
