@@ -19,7 +19,19 @@
     font-size: 2.5em;
     font-weight: bold;
     color: #ffffff;
+    
   }
+  .menu-titlepizza {
+    border: 0px;
+    padding: 0%;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #f88e15;
+    /* border: solid red; */
+  }
+
+
+
   
   /* Estilos para cada item del menú */
   .menu-items {
@@ -27,6 +39,17 @@
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-gap: 20px;
   }
+
+
+  .menu-items-pizza {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+    background-color: rgba(255, 38, 0, 0.274);
+    border-radius: 20px;
+    padding: 10px;
+  }
+
   
   .menu-item {
     background: #fff;
